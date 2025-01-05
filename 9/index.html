@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Overview</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .info {
+            width: 60%;
+            padding: 40px;
+        }
+
+        .info h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .info p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #ddd;
+        }
+
+        .info button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background: #ff6a00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .info button:hover {
+            background: #ff8800;
+        }
+
+        .logo {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .logo img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                width: 90%;
+            }
+
+            .info,
+            .logo {
+                width: 100%;
+            }
+
+            .logo {
+                border-left: none;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">
+            <h1>About the Project</h1>
+            <p>
+                Welcome to our project! This platform is designed to bring innovative solutions
+                to your fingertips. Our team has worked tirelessly to ensure the highest level
+                of quality and performance. Explore the details and discover what makes this
+                project truly exceptional.
+            </p>
+            <button>Learn More</button>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Project Logo">
+        </div>
+    </div>
+</body>
+
+</html>
