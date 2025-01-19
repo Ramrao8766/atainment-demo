@@ -28,6 +28,9 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] != 'admin') {
         <div class="dashboard-links">
             <button onclick="window.location.href='admin module/manage_classes.php'">Manage Classes</button>
             <button onclick="window.location.href='admin module/manage_subjects.php'">Manage Subjects</button>
+            <button onclick="window.location.href='admin module/ViewCOs.php'">ViewCOs</button>
+            <button onclick="window.location.href='teacher module/TeacherViewStudent.php'">View Attaintment</button>
+            <button onclick="window.location.href='admin module/po_registrashion.php'">po registrashion</button>
             <button onclick="window.location.href='admin module/assign_roles.php'">Assign Students & Teachers</button>
         </div>
 
