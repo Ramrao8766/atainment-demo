@@ -141,6 +141,7 @@ if (!isset($_SESSION['username']) || $_SESSION['role'] != 'teacher') {
             <a href="teacher module/AddCOWiseMarks2.php" class="btn">Add CO-Wise Marks 2</a>
             <a href="teacher module/View Attainment 1.php" class="btn">View Attainment 1</a>
             <a href="teacher module/View Attainment 2.php" class="btn">View Attainment 2</a>
+            <a href="teacher module/View Attainment 3.php" class="btn">View Attainment 2</a>
             <a href="teacher module/Co Po Matrix.php" class="btn">CO-PO Matrix</a>
         </div>
 
